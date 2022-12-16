@@ -12,18 +12,65 @@
 <body>
     <div class="main">
         <div class="left">
-            <h1>Hi</h1>
+            <div class="forImage">
+                <div class="semi-transparent">
+                    <img src="/images/odin-logo.png" alt="top logo" height="110px">
+                    <h1>Odin</h1>
+                </div>
+            </div>
+            <div class="forFooter">
+                <p class="p-footer">Photo By <a class="a-footer" href="https://www.pexels.com/photo/aerial-shot-of-blue-water-3894157/">bt3gl</a> on <a class="a-footer" href="https://www.pexels.com/">Pexels</a></p>
+            </div>
         </div>
         <div class="right">
             <div class="first">
-                hi    
+                <h3>This is my wavy project design for creating a sign-up form. <br/>
+                All in all i'd say i did a good job. <br/> <br/>
+                Sign up <em>now</em> but not really :).
+                </h3>    
             </div>
-            <div class="second">
-                hello
-            </div>
-            <div class="third">
-                world
-            </div>
+            <form action="" method="get" >
+                <div class="second">
+                    <h3 style="margin-left: 50px;">Let's do this!</h3>
+                    <div class="form-main-div">                    
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+                            <div class="form-div">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">  
+                            </div>
+                            <div class="form-div">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" required>
+                                <p id="error"></p>
+                            </div>
+                        </div>
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" name="last_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber">  
+                            </div>
+                            <div class="form-div">
+                                <label for="confirmPassword">PASSWORD</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                    <div class="third">
+                        <button type="submit" class="btn-green">Create Account</button>
+                        <div class="hyperlink">
+                            <p>Already have an account? <a class="login" href="">Log In</a></p>
+                        </div>
+                    </div>
+            </form>
         </div>
     </div>
 </body>
